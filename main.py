@@ -7,6 +7,7 @@ from dbmanager import DBManager
 def main():
     db = DBManager()
     db.create_tables()
+    """id компаний"""
     employees_id = [1, 6, 8, 13, 14, 15, 19, 26, 35, 36]
 
     for employer in employees_id:
